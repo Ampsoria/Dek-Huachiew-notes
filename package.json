@@ -1,0 +1,31 @@
+{
+  "name": "dek-huachiew-notes",
+  "version": "1.0.0",
+  "description": "Course-centered notes and slides for Huachiew students",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "node scripts/build-catalog.mjs && tsc --noEmit && vite build",
+    "check": "tsc --noEmit",
+    "catalog": "node scripts/build-catalog.mjs",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "Gorrawit Puttabarramee",
+  "license": "MIT",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.118.0",
+    "lucide-react": "^1.60.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-router-dom": "^7.18.4",
+    "tus-js-client": "^4.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4"
+  }
+}
